@@ -12,4 +12,4 @@ In your playbook, just add `ubuntu-autosave-iptables` to your roles list. For ex
 	- hosts: yourservers
 	  sudo: yes
 	  roles:
-	  	- ubuntu-autosave-iptables
+	  	- ansible-ubuntu-autosave-iptables
