@@ -1,5 +1,5 @@
 ---
-# file: tasks/main.yml
+# tasks file for iptables
 
 - name: saving actual iptables rules to local file
   command: /sbin/iptables-save > /etc/iptables.rules
