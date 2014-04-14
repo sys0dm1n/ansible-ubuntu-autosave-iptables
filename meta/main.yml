@@ -1,6 +1,6 @@
 ---
 galaxy_info:
-  author: sys0dm1n.
+  author: sys0dm1n
   description: System Engineer
   company: terraltech.com
   # Some suggested licenses:
@@ -65,7 +65,7 @@ galaxy_info:
   #  - 9.1
   #  - 9.2
   - name: Ubuntu
-  #  versions:
+    versions:
   #  - all
   #  - lucid
   #  - maverick
