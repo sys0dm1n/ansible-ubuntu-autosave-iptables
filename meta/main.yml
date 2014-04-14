@@ -1,7 +1,7 @@
 ---
 galaxy_info:
   author: sys0dm1n
-  description: System Engineer
+  description: Auto save iptables rules on reboot in Ubuntu
   company: terraltech.com
   # Some suggested licenses:
   # - BSD (default)
@@ -110,7 +110,7 @@ galaxy_info:
   #- database:sql
   #- development
   #- monitoring
-  #- networking
+  - networking
   #- packaging
   - system
   #- web
