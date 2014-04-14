@@ -1,0 +1,11 @@
+---
+# file: tasks/main.yml
+
+- name: saving actual iptables rules to local file
+  command: /sbin/iptables-save > /etc/iptables.rules
+
+- name: copy loadiptables
+  copy: src=loadiptables dest=/etc/network/if-up.d/loadiptables owner=root group=root mode=751
+
+- name: copy saveiptables
+  copy: src=saveiptables dest=/etc/network/if-down.d/saveiptables owner=root group=root mode=751
