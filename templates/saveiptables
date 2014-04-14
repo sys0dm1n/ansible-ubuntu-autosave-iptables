@@ -1,0 +1,3 @@
+#!/bin/bash
+/sbin/iptables-save > /etc/iptables.rules
+exit 0
